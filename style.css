@@ -1,0 +1,41 @@
+*{
+    margin: 0px;
+}
+@font-face {
+    font-family: odin;
+    src: url(./Font/Norse-Bold.otf);
+}
+.img-container{
+    position: relative;
+    width: 35vw;
+    height: 100vw;
+}
+.castle-background{
+    height: 100vh;
+    width: 35vw;
+    margin: 0px;
+}
+.background-img{
+    background-color: black;
+    opacity: 70%;
+    height: 30vh;
+    width: 35vw;
+    position: absolute;
+    top: 20vh;
+    left: 0;
+}
+.background-img h1{
+    font-family: odin;
+    color: white;
+    font-size: 10rem;
+    position: absolute;
+    left: 15vw;
+    top: 2.5vw;
+}
+.odin{
+    position: absolute;
+    top: 20vh;
+    left: 4vw;
+    height: 30vh;
+
+}
