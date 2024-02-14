@@ -1,3 +1,6 @@
+:root{
+    --img-width: max(35vw, 400px)
+}
 *{
     margin: 0px;
 }
@@ -5,21 +8,25 @@
     font-family: odin;
     src: url(./Font/Norse-Bold.otf);
 }
+.container{
+    display: flex;
+    flex-direction: row;
+}
 .img-container{
     position: relative;
-    width: 35vw;
+    width: var(--img-width);
     height: 100vw;
 }
 .castle-background{
     height: 100vh;
-    width: 35vw;
+    width: var(--img-width);
     margin: 0px;
 }
 .background-img{
     background-color: black;
     opacity: 70%;
     height: 30vh;
-    width: 35vw;
+    width: var(--img-width);
     position: absolute;
     top: 20vh;
     left: 0;
@@ -29,13 +36,31 @@
     color: white;
     font-size: 10rem;
     position: absolute;
-    left: 15vw;
-    top: 2.5vw;
+    left: 16vw;
+    top: 4vw;
 }
 .odin{
     position: absolute;
-    top: 20vh;
+    top: 21vh;
     left: 4vw;
-    height: 30vh;
+    height: 28vh;
 
+}
+.intro-text{
+    display: flex;
+    align-items: center;
+    margin-left: 5vw;
+    width: 65vw;
+    height: 33vh;
+    margin-top: 2vh;
+}
+p{
+    color: black;
+    font-size: 1.5rem;
+
+    text-align: left;
+}
+span{
+    padding-top: 20px;
+    display: block;
 }
