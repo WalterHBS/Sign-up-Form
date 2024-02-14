@@ -36,8 +36,8 @@
     color: white;
     font-size: 10rem;
     position: absolute;
-    left: 16vw;
-    top: 4vw;
+    left: 250px;
+    top: 50px;
 }
 .odin{
     position: absolute;
@@ -63,4 +63,17 @@ p{
 span{
     padding-top: 20px;
     display: block;
+}
+fieldset{margin: 20px 0px;}
+form{
+    display: flex;
+    flex-direction: column;
+}
+form div{
+    display: flex;
+    flex-direction: row;
+}
+form div div{
+    display: flex;
+    flex-direction: column;
 }
